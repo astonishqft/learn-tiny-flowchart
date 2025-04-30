@@ -1,0 +1,25 @@
+{
+  "name": "@tiny-flowchart/editor",
+  "version": "1.0.0",
+  "description": "",
+  "module": "dist/index.js",
+  "type": "module",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch",
+    "lint": "eslint src/**/*.ts"
+  },
+  "keywords": [],
+  "author": "qi.futao",
+  "license": "ISC",
+  "devDependencies": {
+    "tslib": "^2.6.2"
+  },
+  "dependencies": {
+    "@tiny-flowchart/core": "workspace:^1.0.0"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "tiny-flowchart",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "pnpm -r --parallel exec pnpm run dev",
+    "build": "pnpm -r --sort exec pnpm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astonishqft/tiny-flowchart.git"
+  },
+  "author": "qi.futao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/astonishqft/tiny-flowchart/issues"
+  },
+  "homepage": "https://github.com/astonishqft/tiny-flowchart#readme",
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@rushstack/eslint-patch": "^1.8.0",
+    "@typescript-eslint/eslint-plugin": "^5.24.0",
+    "@typescript-eslint/parser": "^5.24.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "@vue/eslint-config-typescript": "^13.0.0",
+    "bumpp": "^10.1.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.2.5",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.8",
+    "vite-plugin-dts": "^3.6.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
